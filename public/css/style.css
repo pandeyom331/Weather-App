@@ -1,0 +1,180 @@
+body {
+  font-family: 'RocknRoll One', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+
+.mainscreen::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105vh;
+    background: url("/css/sun.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 105vh; /* width height */
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.mainscreen {
+  height: 105vh;
+
+  width: 100%;
+}
+
+.toppart {
+  padding: 3rem 10rem 10rem;
+}
+
+.herotext {
+  background: #3a2f2f73;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.toppart h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 auto 2rem;
+}
+
+.formpart {
+  width: 35rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 2rem 2rem 4rem;
+}
+
+h2 {
+  color: #3F51B5;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.inputbox {
+  width: 26rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.submitbtn {
+  width: 13rem;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  color: white;
+  background: #3F51B5;
+  border: 0;
+  outline: 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.imgpart {
+  background: #cdfffc;
+  width: 25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.heroimg {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+}
+
+.mainpart {
+  width: 60rem;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  top: -7rem;
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 20px #3535358c;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+
+  .mainscreen::before{
+    height: 100vh;
+    background: url("/css/sun1.jpg");
+    background-size: 100% 100vh;
+  }
+
+  .mainscreen {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .toppart {
+    padding: 3rem 2rem 10rem;
+  }
+
+  .mainpart {
+    flex-direction: column;
+    margin-top: 400px;
+    align-items: center;
+    width: 40vh;
+  }
+
+  .imgpart {
+    width: 100%;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+  }
+  .formpart{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heroimg {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+  }
+
+  .inputbox {
+    width: 16rem;
+  }
+
+  #footer {
+    padding: 4% 3%;
+    height: 7vh;
+    background-color: #161d6f;
+    font-weight: bold;
+  }
+}
+
+
+/* FOOTER */
+#footer {
+  padding: 1% 2%;
+  text-align: center;
+  background-color: #161d6f;
+  color: #fff;
+}
+
+.git {
+  color: #fff;
+  margin: 10px 10px;
+}
+
+.git:hover {
+  color: cyan;
+}

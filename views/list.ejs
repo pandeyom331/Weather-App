@@ -1,0 +1,30 @@
+<%- include("partials/Header") -%>
+
+<div class="mainscreen">
+
+  <div class="toppart">
+    <div class="herotext">
+      <h1>Weather App ⚡🌅🌪🌨</h1>
+    </div>
+  </div>
+
+  <div class="mainpart">
+
+    <div class="imgpart">
+      <img src="/css/weather.jpg" class="heroimg" alt="">
+    </div>
+
+    <div class="formpart">
+      <form class="weather" action="/result" method="post">
+        <h2>Enter City name</h2><br>
+        <input id="cityInput" type="text" name="cityName" value="" class="inputbox">
+        <button type="submit" class="submitbtn">Go</button>
+      </form>
+    </div>
+
+  </div>
+
+
+</div>
+
+<%- include("partials/footer") -%>
