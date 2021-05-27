@@ -1,5 +1,5 @@
 <h1>TITLE--Weather-App</h1>
-<a href="https://weather-app---v1.herokuapp.com/">Weather-App</a>
+<a href="https://world-weather-app-v1.herokuapp.com/">Weather-App</a>
 Created using Ejs, CSS, Node.js, Express.js and deployed on Heroku.
          
 <h1> FEATURES -- </h2>
@@ -11,7 +11,7 @@ Created using Ejs, CSS, Node.js, Express.js and deployed on Heroku.
  <img src="https://github.com/pandeyom331/Weather-App/blob/master/img/Capture.PNG" width="75%"></img><hr width="760px;">   
   <img src="https://github.com/pandeyom331/Weather-App/blob/master/img/Capture1.PNG" width="75%"></img><hr width="760px;">                                                                                    
  <h1>LINK-- </h2>
-  You can directly check the website at--https://weather-app---v1.herokuapp.com/ (deployed on herokuapp)
+  You can directly check the website at--https://world-weather-app-v1.herokuapp.com/ (deployed on herokuapp)
   
 <h2> TESTING-- </h2>
                                                                                         
